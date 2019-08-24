@@ -35,7 +35,7 @@ class Song
     end
     
     def self.alphabtical
-      @@all.sort
+      @@all.sort_by()
   def save
     self.class.all << self
   end
