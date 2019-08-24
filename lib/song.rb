@@ -6,6 +6,9 @@ class Song
     
   end
   
+  def self.create
+    self.create
+  end
   def self.all
     @@all
   end
