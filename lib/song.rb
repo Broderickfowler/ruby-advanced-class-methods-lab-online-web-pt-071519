@@ -31,7 +31,7 @@ class Song
     end
     
     def self.find_or_create_by_name(name)
-      self.find_by_name{|x|
+      self.find_by_name(name) || self.
     
   def save
     self.class.all << self
