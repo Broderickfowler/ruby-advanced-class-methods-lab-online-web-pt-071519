@@ -40,7 +40,7 @@ class Song
     
     def self.new_from_filename
       song = self.new
-      song.name = split("-") song
+      song.name = split("-")[1]
   def save
     self.class.all << self
   end
