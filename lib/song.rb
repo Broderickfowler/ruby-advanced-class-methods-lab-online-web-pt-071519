@@ -3,7 +3,7 @@ class Song
   @@all = []
   
   def initialize()
-    
+    @@all
   end
   
   def self.create
