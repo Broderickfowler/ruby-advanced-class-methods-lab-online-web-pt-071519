@@ -44,6 +44,7 @@ class Song
     song.artist_name = (name.split(" - ")[0])
     song
   end
+  song
   
   def save
     self.class.all << self
